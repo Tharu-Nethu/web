@@ -1,0 +1,73 @@
+/*googlestyledfrom.module.css*/
+
+.formContainer form {
+  display: block;
+  flex-direction: unset;
+  gap: unset;
+  background-color:rgb(87, 19, 87);
+  border: 2px solid #60055e;
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(113, 5, 113, 0.92);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+/* .formContainer {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+ 
+}
+ */
+.formContainer h2 {
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+  font-size:x-large;
+}
+
+.formLabel {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.formInput {
+  width: 95%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+.formInput:focus {
+  border-color: #ef72d4;
+  box-shadow: 0 0 5px #ef72d4;
+}
+
+.gbutton {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #ef72d4;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gbutton:hover {
+  background-color: #a65f49;
+}
+
+.button-container{
+  text-align: center;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+.footer {
+  background: linear-gradient(90deg, #6A156A 64%, #120412 100%); 
+}
+
+.icon-container{
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+  width:25px;
+  height: auto;
+  background-size: cover;
+ margin-left: 40px;
+ margin-top:20px;
+}
+.footer-content{
+  text-align: center;
+}
+
+.footer-content h2{
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 1px;
+}

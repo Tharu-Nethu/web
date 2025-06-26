@@ -1,0 +1,101 @@
+.login-box {
+  background: white;
+  border-radius: 10px;
+  padding: 40px 40px;
+  height: auto; 
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+
+/* Center the popup inside the overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Prevent background scrolling when popup is active */
+body.modal-open {
+  overflow: hidden;
+}
+
+.login-box h3 {
+  color: #6A156A;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: none;
+  margin-bottom:15px;
+}
+.login-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+.custom-icon {
+  display: inline-block;
+  width:30px;
+  height: 30px;
+  background-image: url('./logo.png');
+  background-size: cover;
+}
+
+button[type="submit"] {
+  width: auto;
+  width: 180px;
+  background-color: #6A156A !important; /* Force override */
+  color: #fff;
+  border: none;
+  padding: 20px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  transition: background 0.3s ease-in-out;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Hover styles */
+button[type="submit"]:hover,
+.Button[type="submit"]:hover,
+button.Button:hover {
+  background-color: #4e0f4e !important;
+  border-color: #da29da !important;
+  border-width: 1px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 6px;
+  
+}
+.google-icon {
+  margin-right: 15px; /* Adjust the space as needed */
+}
+
+
+
+@media (max-width: 768px) {
+  .login-box {
+    padding: 30px 50px;  /* Adjust padding for smaller screens */
+    width: 90%;  /* Take up 90% of the screen */
+    max-width: 400px;  /* Set max-width */
+  }
+}

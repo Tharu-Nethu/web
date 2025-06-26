@@ -1,0 +1,112 @@
+.events-container {
+    width: 100%;
+    margin: 40px 20px;
+    padding: 0px 60px;
+
+   
+  }
+  
+  .event-card {
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 1rem;
+    border-color: #6A156A;
+    border-width: 1px;
+    border: solid;
+  }
+  
+  .event-year {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(106 , 21, 106, 0.6);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding: 0.5rem;
+  }
+  
+  .event-info {
+    padding: 1rem;
+  }
+  
+  .event-title {
+    font-size: 1.25rem;
+    font-weight:400;
+    background: #6A156A;
+    color:#FFCFFF;
+    width:fit-content;
+    border-radius: 5px;
+   top: 20px;
+   padding: 5px 10px;
+  }
+  
+  .event-date {
+    color: #555;
+    font-size: 0.875rem;
+  }
+  
+  .event-description {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #333;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    z-index: 10;
+    opacity: 1;
+    width: auto;
+    height: fit-content;
+  }
+  
+  /* Force arrows to stay on the left */
+  .custom-arrow {
+    position: absolute;
+    left: 10px;
+    font-size: 32px;
+    color: #6A156A;
+    background: #FFCFFF;
+    border-radius: 5px;
+    padding: 2px 2px; 
+    line-height: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom-arrow:hover {
+    background: #6A156A;
+    color: #FFCFFF;
+  }
+  
+  /* Tweak the second arrow to sit beside the first one */
+  .custom-arrow.next-arrow {
+    left: 50px;
+  }
+  
+  /* Ensure they stay vertically aligned */
+  .custom-arrow.prev-arrow,
+  .custom-arrow.next-arrow {
+    top: 0;
+    z-index: 100;
+    transform: translateY(-50%);
+    height: fit-content;
+  }
+  
+  @media (max-width: 576px) {
+    .event-image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      padding: 0.5rem;
+    }
+  }

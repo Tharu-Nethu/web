@@ -1,0 +1,190 @@
+/*registrationfrom.css*/
+
+.registration-container {
+   margin-top: 40px;
+   padding: 0 60px ;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+   
+  }
+  
+  
+  
+  .quiz-container p {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height:normal;
+    background: linear-gradient(90deg, rgba(208, 41.21, 208, 0.2) 0%, white 100%);
+    padding: 20px 10px;
+    border-radius: 10px;
+   
+  }
+
+  .quiz-container iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .choices h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+  .registration-container button {
+    background-color:rgba(106, 21, 106, 0.80);
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    gap: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    color: #6A156A;
+    background-color:rgba(106, 21, 106, 0.40);
+
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  /* Form rows for labels and inputs */
+  .form-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style labels */
+  label {
+    font-weight: bold;
+    flex-basis:250px; 
+    text-align: right;
+  }
+  
+  /* Style inputs */
+  input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .confirmation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Table row styling */
+  .confirmation-table tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling table cells */
+  .confirmation-table td {
+    padding: 12px 15px;
+  }
+  
+  /* Left column style */
+  .confirmation-table td:first-child {
+    font-weight: 600;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Right column style */
+  .confirmation-table td:last-child {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  /* On small screens, stack rows vertically */
+  @media (max-width: 600px) {
+    .confirmation-table td {
+      display: block;
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    .confirmation-table td:first-child {
+      background-color: transparent;
+      font-weight: normal;
+      color: #555;
+      font-size: 14px;
+      width:100%
+     }
+  
+    .confirmation-table tr {
+      border-bottom: none;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      font-size: 14px;
+    }
+    .confirmation-table td:last-child {
+        font-size: 14px;
+    }
+  }
+  
+  
+  /* On smaller screens, stack labels and inputs */
+  @media (max-width: 600px) {
+    .form-row {
+      flex-direction: column;
+      align-items: flex-start;
+
+    }
+  
+    label {
+      text-align: left;
+      flex-basis: auto;
+    }
+    .quiz-container p {
+       font-size: 12px;
+    }
+    .registration-container button{
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+  }
+  
