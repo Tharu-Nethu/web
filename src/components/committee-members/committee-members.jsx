@@ -10,8 +10,8 @@ const CommitteeMembers = () => {
     { name: "Sachinthani Hansika", position: "Treasurer", photo: "./images/committee/Treasurer.jpg" },
     { name: "Tharunethu Wanniarachchi", position: "Webmaster", photo: "./images/committee/Webmaster.jpg" },
     { name: "Irushi Kumarathissa ", position: "Program & Event Organizer", photo: "./images/committee/Peo.jpg" },
-    { name: "Subhani Uduwawala", position: "Publicity & Public Visibility Comittee Lead", photo: "./images/committee/Editor.jpg" },
-    { name: "Isuri Gunaratne", position: "Editor", photo: "./images/committee/incharger1.jpg" },
+    { name: "Subhani Uduwawala", position: "Publicity & Public Visibility Comittee Lead", photo: "./images/committee/Pv.jpg" },
+    { name: "Isuri Gunaratne", position: "Editor", photo: "./images/committee/Editor.jpg" },
     { name: "Punsara Sewwandi", position: "Public Relations and External Affairs commtitee Lead", photo: "./images/committee/Pr.jpg" },
   ];
 
